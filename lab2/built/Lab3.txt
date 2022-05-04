@@ -1,0 +1,39 @@
+Compiled from "Lab3.java"
+public class nsu.fit.javaperf.lab3.Lab3 {
+  int coins;
+
+  public nsu.fit.javaperf.lab3.Lab3();
+    Code:
+       0: aload_0
+       1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+       4: aload_0
+       5: iconst_1
+       6: putfield      #7                  // Field coins:I
+       9: return
+
+  void muliplyCoins(int);
+    Code:
+       0: aload_0
+       1: getfield      #7                  // Field coins:I
+       4: iload_1
+       5: imul
+       6: istore_2
+       7: aload_0
+       8: iload_2
+       9: putfield      #7                  // Field coins:I
+      12: return
+
+  public static void main(java.lang.String[]);
+    Code:
+       0: new           #8                  // class nsu/fit/javaperf/lab3/Lab3
+       3: dup
+       4: invokespecial #13                 // Method "<init>":()V
+       7: astore_1
+       8: aload_1
+       9: bipush        10
+      11: invokevirtual #14                 // Method muliplyCoins:(I)V
+      14: aload_1
+      15: bipush        20
+      17: invokevirtual #14                 // Method muliplyCoins:(I)V
+      20: return
+}
