@@ -10,10 +10,14 @@ public class TransactionProcessor {
 
     public static void main(String[] args) throws Exception {
         System.out.println("HEY HI");
-//        TransactionProcessor tp = new TransactionProcessor();
-//        int tx = 0;
-//        tp.processTransaction(++tx);
-//        tp.processTransaction(++tx);
-//        tp.processTransaction(++tx);
+        TransactionProcessor tp = new TransactionProcessor();
+        int tx = 0;
+        tp.processTransaction(++tx);
+        tp.processTransaction(++tx);
+        tp.processTransaction(++tx);
+    }
+
+    public static void printHehe() {
+        System.out.println("hehe");
     }
 }

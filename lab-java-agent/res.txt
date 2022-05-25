@@ -1,0 +1,331 @@
+> Task :compileJava
+> Task :processResources NO-SOURCE
+> Task :classes
+
+> Task :run
+AGENT START
+class java.lang.Object
+my name is myagent.MyAgent
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+fucking up target class: nsu/fit/javaperf/TransactionProcessor
+HEY HI
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+Processing tx: 1
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+tx: 1 completed
+989
+Processing tx: 2
+tx: 2 completed
+281
+Processing tx: 3
+tx: 3 completed
+45
+1315
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+Total classes loaded :181
+Total news:0
+Classes loaded:
+myagent/MyAgent$2
+java/lang/instrument/ClassDefinition
+org/objectweb/asm/ClassReader
+java/lang/AssertionError
+jdk/internal/module/Resources
+jdk/internal/loader/BuiltinClassLoader$5
+java/lang/module/ModuleReader
+jdk/internal/module/SystemModuleFinders$SystemModuleReader
+jdk/internal/module/SystemModuleFinders$SystemImage
+jdk/internal/jimage/ImageReaderFactory
+java/nio/file/Paths
+jdk/internal/jimage/ImageReaderFactory$1
+jdk/internal/jimage/ImageReader
+jdk/internal/jimage/BasicImageReader
+jdk/internal/jimage/ImageReader$SharedImageReader
+jdk/internal/jimage/BasicImageReader$1
+jdk/internal/jimage/NativeImageBuffer
+jdk/internal/jimage/NativeImageBuffer$1
+jdk/internal/jimage/ImageHeader
+java/nio/IntBuffer
+java/nio/DirectIntBufferU
+java/nio/DirectByteBufferR
+java/nio/DirectIntBufferRU
+jdk/internal/jimage/ImageStrings
+jdk/internal/jimage/ImageStringsReader
+jdk/internal/jimage/decompressor/Decompressor
+jdk/internal/jimage/ImageLocation
+java/lang/StringUTF16
+sun/net/www/protocol/jrt/JavaRuntimeURLConnection
+sun/net/www/URLConnection
+java/net/URLConnection
+sun/net/www/MessageHeader
+sun/net/www/protocol/jrt/JavaRuntimeURLConnection$1
+jdk/internal/jimage/ImageBufferCache
+jdk/internal/jimage/ImageBufferCache$1
+jdk/internal/jimage/ImageBufferCache$2
+jdk/internal/jimage/ImageBufferCache$BufferReference
+java/util/Arrays$LegacyMergeSort
+java/util/TimSort
+java/lang/UnsupportedOperationException
+org/objectweb/asm/ClassTooLargeException
+java/lang/IndexOutOfBoundsException
+java/lang/TypeNotPresentException
+org/objectweb/asm/FieldVisitor
+org/objectweb/asm/FieldWriter
+org/objectweb/asm/AnnotationVisitor
+org/objectweb/asm/AnnotationWriter
+org/objectweb/asm/ModuleVisitor
+org/objectweb/asm/ModuleWriter
+org/objectweb/asm/MethodVisitor
+org/objectweb/asm/MethodWriter
+org/objectweb/asm/SymbolTable
+org/objectweb/asm/Symbol
+org/objectweb/asm/SymbolTable$Entry
+org/objectweb/asm/ByteVector
+myagent/MyAgent$ObjectMethodVisitor
+org/objectweb/asm/Attribute
+org/objectweb/asm/Context
+org/objectweb/asm/MethodTooLargeException
+org/objectweb/asm/Frame
+org/objectweb/asm/CurrentFrame
+java/lang/IllegalStateException
+org/objectweb/asm/Type
+org/objectweb/asm/Label
+org/objectweb/asm/Edge
+org/objectweb/asm/Opcodes
+org/objectweb/asm/Handler
+java/lang/WeakPairMap$Pair$Weak
+java/lang/WeakPairMap$WeakRefPeer
+java/lang/WeakPairMap$Pair$Weak$1
+java/lang/Object
+java/lang/ApplicationShutdownHooks
+java/lang/ApplicationShutdownHooks$1
+java/lang/Shutdown
+java/lang/Shutdown$Lock
+sun/launcher/LauncherHelper
+nsu/fit/javaperf/TransactionProcessor
+java/lang/Math$RandomNumberGeneratorHolder
+java/util/Random
+java/util/Formatter
+java/util/regex/Pattern
+java/util/regex/Pattern$Node
+java/util/regex/Pattern$1
+java/util/regex/Pattern$LastNode
+java/util/regex/Pattern$GroupHead
+java/util/regex/Pattern$CharPredicate
+java/util/regex/Pattern$BmpCharPredicate
+java/util/regex/Pattern$CharProperty
+java/util/regex/Pattern$BmpCharProperty
+java/util/regex/Pattern$GroupTail
+java/util/regex/CharPredicates
+java/util/regex/Pattern$CharPropertyGreedy
+java/util/regex/Pattern$BmpCharPropertyGreedy
+java/util/regex/Pattern$Ques
+java/util/regex/Pattern$Qtype
+java/util/regex/Pattern$BranchConn
+java/util/regex/Pattern$Branch
+java/util/regex/Pattern$BitClass
+java/lang/invoke/DirectMethodHandle$Special
+java/util/regex/Pattern$SliceNode
+java/util/regex/Pattern$Slice
+java/util/regex/Pattern$Begin
+java/util/regex/Pattern$First
+java/util/regex/Pattern$Start
+java/util/regex/Pattern$TreeInfo
+java/util/Locale$Category
+java/util/Locale$1
+java/text/DecimalFormatSymbols
+java/util/spi/LocaleServiceProvider
+java/text/spi/DecimalFormatSymbolsProvider
+sun/util/locale/provider/LocaleProviderAdapter
+sun/util/locale/provider/LocaleProviderAdapter$Type
+java/util/Collections$UnmodifiableList
+java/util/Collections$UnmodifiableRandomAccessList
+sun/util/locale/provider/ResourceBundleBasedAdapter
+sun/util/locale/provider/JRELocaleProviderAdapter
+sun/util/locale/provider/FallbackLocaleProviderAdapter
+sun/util/locale/provider/LocaleProviderAdapter$NonExistentAdapter
+sun/util/locale/LanguageTag
+java/util/Collections$EmptyIterator
+java/util/Collections$SingletonSet
+sun/util/locale/provider/LocaleResources
+sun/util/resources/LocaleData
+java/util/ResourceBundle$Control
+java/util/ResourceBundle$Control$CandidateListCache
+java/util/ResourceBundle
+sun/util/locale/provider/LocaleProviderAdapter$1
+sun/util/cldr/CLDRLocaleProviderAdapter
+sun/util/locale/provider/LocaleDataMetaInfo
+sun/util/cldr/CLDRBaseLocaleDataMetaInfo
+sun/util/locale/ParseStatus
+sun/util/locale/StringTokenIterator
+sun/util/cldr/CLDRLocaleProviderAdapter$1
+java/util/ServiceLoader
+java/util/ServiceLoader$ModuleServicesLookupIterator
+jdk/internal/loader/AbstractClassLoaderValue$Memoizer
+java/util/concurrent/CopyOnWriteArrayList$COWIterator
+java/util/ServiceLoader$LazyClassPathLookupIterator
+java/util/ServiceLoader$2
+java/util/ServiceLoader$3
+jdk/internal/module/ModulePatcher$PatchedModuleReader
+sun/util/resources/cldr/provider/CLDRLocaleDataMetaInfo
+java/util/ServiceLoader$1
+java/util/ServiceLoader$Provider
+java/util/ServiceLoader$ProviderImpl
+sun/util/locale/provider/AvailableLanguageTags
+sun/util/locale/provider/DecimalFormatSymbolsProviderImpl
+java/util/StringTokenizer
+sun/util/locale/provider/CalendarDataUtility
+sun/util/resources/LocaleData$1
+sun/util/resources/Bundles$Strategy
+sun/util/resources/LocaleData$LocaleDataStrategy
+sun/util/resources/Bundles
+sun/util/resources/Bundles$1
+jdk/internal/misc/JavaUtilResourceBundleAccess
+java/util/ResourceBundle$1
+java/util/ResourceBundle$2
+sun/util/resources/Bundles$CacheKey
+java/util/ResourceBundle$SingleFormatControl
+java/util/ResourceBundle$NoFallbackControl
+java/util/AbstractSequentialList
+java/util/LinkedList
+java/util/LinkedList$Node
+java/util/ListResourceBundle
+sun/text/resources/cldr/FormatData
+java/util/ResourceBundle$ResourceBundleProviderHelper
+sun/util/resources/Bundles$CacheKeyReference
+sun/util/resources/Bundles$BundleReference
+sun/text/resources/cldr/FormatData_en
+sun/util/locale/provider/LocaleResources$ResourceReference
+java/util/regex/MatchResult
+java/util/regex/Matcher
+java/util/regex/IntHashSet
+java/util/regex/ASCII
+java/util/Formatter$FormatString
+java/util/Formatter$FixedString
+java/util/Formatter$FormatSpecifier
+java/util/Formatter$Flags
+java/util/Formatter$Conversion
+java/util/IdentityHashMap$IdentityHashMapIterator
+java/util/IdentityHashMap$KeyIterator
+java/util/concurrent/ConcurrentLinkedQueue$Itr
+
+BUILD SUCCESSFUL in 2s
+2 actionable tasks: 2 executed
