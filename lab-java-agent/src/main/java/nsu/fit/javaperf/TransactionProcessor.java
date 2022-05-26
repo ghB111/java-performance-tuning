@@ -16,8 +16,4 @@ public class TransactionProcessor {
         tp.processTransaction(++tx);
         tp.processTransaction(++tx);
     }
-
-    public static void printHehe() {
-        System.out.println("hehe");
-    }
 }

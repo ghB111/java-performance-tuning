@@ -4,8 +4,6 @@
 
 > Task :run
 AGENT START
-class java.lang.Object
-my name is myagent.MyAgent
 An object created
 An object created
 An object created
@@ -26,7 +24,12 @@ An object created
 An object created
 An object created
 An object created
-fucking up target class: nsu/fit/javaperf/TransactionProcessor
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
 HEY HI
 An object created
 An object created
@@ -127,24 +130,34 @@ An object created
 An object created
 An object created
 tx: 1 completed
-989
+processTransaction took: 34
 Processing tx: 2
 tx: 2 completed
-281
+processTransaction took: 70
 Processing tx: 3
 tx: 3 completed
-45
-1315
+processTransaction took: 368
+main took: 472
 An object created
 An object created
 An object created
 An object created
 An object created
 An object created
-Total classes loaded :181
-Total news:0
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+An object created
+Total classes loaded :182
 Classes loaded:
 myagent/MyAgent$2
+myagent/MyAgent$TransactionProcessorVisitor
 java/lang/instrument/ClassDefinition
 org/objectweb/asm/ClassReader
 java/lang/AssertionError
@@ -184,8 +197,6 @@ jdk/internal/jimage/ImageBufferCache$BufferReference
 java/util/Arrays$LegacyMergeSort
 java/util/TimSort
 java/lang/UnsupportedOperationException
-org/objectweb/asm/ClassTooLargeException
-java/lang/IndexOutOfBoundsException
 java/lang/TypeNotPresentException
 org/objectweb/asm/FieldVisitor
 org/objectweb/asm/FieldWriter
@@ -195,6 +206,8 @@ org/objectweb/asm/ModuleVisitor
 org/objectweb/asm/ModuleWriter
 org/objectweb/asm/MethodVisitor
 org/objectweb/asm/MethodWriter
+org/objectweb/asm/ClassTooLargeException
+java/lang/IndexOutOfBoundsException
 org/objectweb/asm/SymbolTable
 org/objectweb/asm/Symbol
 org/objectweb/asm/SymbolTable$Entry
@@ -327,5 +340,5 @@ java/util/IdentityHashMap$IdentityHashMapIterator
 java/util/IdentityHashMap$KeyIterator
 java/util/concurrent/ConcurrentLinkedQueue$Itr
 
-BUILD SUCCESSFUL in 2s
+BUILD SUCCESSFUL in 1s
 2 actionable tasks: 2 executed
