@@ -1,0 +1,62 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+application {
+    mainClass = 'nsu.fit.javaperf.TransactionProcessor'
+}
+
+apply plugin: 'application'
+
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.8.1'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.8.1'
+    // https://mvnrepository.com/artifact/org.javassist/javassist
+    implementation group: 'org.javassist', name: 'javassist', version: '3.15.0-GA'
+    // https://mvnrepository.com/artifact/org.ow2.asm/asm
+    implementation group: 'org.ow2.asm', name: 'asm', version: '7.0'
+    implementation group: 'org.ow2.asm', name: 'asm-commons', version: '7.0'
+    implementation group: 'org.ow2.asm', name: 'asm-tree', version: '7.0'
+    implementation group: 'org.ow2.asm', name: 'asm-util', version: '7.0'
+    implementation 'commons-io:commons-io:2.6'
+}
+
+//test {
+//    useJUnitPlatform()
+////}
+
+jar {
+    manifest {
+        attributes(
+                "Premain-Class": "myagent.MyAgent",
+                "Can-Redefine-Classes": true,
+                "Can-Set-Native-Method-Prefix": true,
+                "Main-Class": "nsu.fit.javaperf.TransactionProcessor"
+        )
+    }
+}
+
+
+//applicationDefaultJvmArgs = ["-javaagent:../java-agent-1.0-SNAPSHOT.jar"]
+
+
+//applicationDefaultJvmArgs =
+//        ["-Xbootclasspath/a:build/libs/lab-java-agent-1.0-SNAPSHOT.jar",
+//         "-javaagent:build/libs/lab-java-agent-1.0-SNAPSHOT.jar"]
+applicationDefaultJvmArgs =
+         ["-javaagent:build/libs/lab-java-agent-1.0-SNAPSHOT.jar"]
+
+
+//applicationDefaultJvmArgs = ["-javaagent:myagent.MyAgent.jar"]
+//mainClassName = "nsu.fit.javaperf.TransactionProcessor"
+
+
