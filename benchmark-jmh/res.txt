@@ -1,0 +1,689 @@
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.bakedRegexFailure
+
+# Run progress: 0.00% complete, ETA 01:06:40
+# Fork: 1 of 5
+# Warmup Iteration   1: 19872678.606 ops/s
+# Warmup Iteration   2: 20235127.783 ops/s
+# Warmup Iteration   3: 20457264.587 ops/s
+# Warmup Iteration   4: 20457544.046 ops/s
+# Warmup Iteration   5: 20441715.742 ops/s
+Iteration   1: 20451472.551 ops/s
+Iteration   2: 20350127.673 ops/s
+Iteration   3: 20455732.179 ops/s
+Iteration   4: 20455910.182 ops/s
+Iteration   5: 20452644.242 ops/s
+
+# Run progress: 2.50% complete, ETA 01:05:07
+# Fork: 2 of 5
+# Warmup Iteration   1: 20021756.387 ops/s
+# Warmup Iteration   2: 20106442.757 ops/s
+# Warmup Iteration   3: 20251282.549 ops/s
+# Warmup Iteration   4: 20250454.263 ops/s
+# Warmup Iteration   5: 20226003.497 ops/s
+Iteration   1: 20314155.116 ops/s
+Iteration   2: 20372173.401 ops/s
+Iteration   3: 20375208.560 ops/s
+Iteration   4: 20360297.809 ops/s
+Iteration   5: 20349816.973 ops/s
+
+# Run progress: 5.00% complete, ETA 01:03:26
+# Fork: 3 of 5
+# Warmup Iteration   1: 19915445.106 ops/s
+# Warmup Iteration   2: 20090787.072 ops/s
+# Warmup Iteration   3: 20315629.138 ops/s
+# Warmup Iteration   4: 20316753.849 ops/s
+# Warmup Iteration   5: 20136821.174 ops/s
+Iteration   1: 20146838.482 ops/s
+Iteration   2: 20283919.776 ops/s
+Iteration   3: 20240410.727 ops/s
+Iteration   4: 20273842.467 ops/s
+Iteration   5: 20283427.340 ops/s
+
+# Run progress: 7.50% complete, ETA 01:01:46
+# Fork: 4 of 5
+# Warmup Iteration   1: 19814106.941 ops/s
+# Warmup Iteration   2: 19900405.098 ops/s
+# Warmup Iteration   3: 19934727.062 ops/s
+# Warmup Iteration   4: 20077505.941 ops/s
+# Warmup Iteration   5: 20135092.733 ops/s
+Iteration   1: 20232967.984 ops/s
+Iteration   2: 20184072.841 ops/s
+Iteration   3: 20210945.011 ops/s
+Iteration   4: 20270039.417 ops/s
+Iteration   5: 19917033.072 ops/s
+
+# Run progress: 10.00% complete, ETA 01:00:05
+# Fork: 5 of 5
+# Warmup Iteration   1: 19720413.447 ops/s
+# Warmup Iteration   2: 20064481.932 ops/s
+# Warmup Iteration   3: 20222053.221 ops/s
+# Warmup Iteration   4: 19980878.851 ops/s
+# Warmup Iteration   5: 19952192.636 ops/s
+Iteration   1: 19992223.251 ops/s
+Iteration   2: 20132535.928 ops/s
+Iteration   3: 20008308.586 ops/s
+Iteration   4: 19849761.021 ops/s
+Iteration   5: 19943304.772 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.bakedRegexFailure":
+  20236286.774 ±(99.9%) 132637.610 ops/s [Average]
+  (min, avg, max) = (19849761.021, 20236286.774, 20455910.182), stdev = 177067.415
+  CI (99.9%): [20103649.164, 20368924.385] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.bakedRegexSuccess
+
+# Run progress: 12.50% complete, ETA 00:58:25
+# Fork: 1 of 5
+# Warmup Iteration   1: 18623974.667 ops/s
+# Warmup Iteration   2: 18436402.135 ops/s
+# Warmup Iteration   3: 18258008.414 ops/s
+# Warmup Iteration   4: 18351378.465 ops/s
+# Warmup Iteration   5: 18281900.824 ops/s
+Iteration   1: 18326046.611 ops/s
+Iteration   2: 18348265.763 ops/s
+Iteration   3: 18311789.702 ops/s
+Iteration   4: 18409364.146 ops/s
+Iteration   5: 18301329.425 ops/s
+
+# Run progress: 15.00% complete, ETA 00:56:45
+# Fork: 2 of 5
+# Warmup Iteration   1: 18863240.628 ops/s
+# Warmup Iteration   2: 18861656.069 ops/s
+# Warmup Iteration   3: 18523329.814 ops/s
+# Warmup Iteration   4: 18558491.176 ops/s
+# Warmup Iteration   5: 18691130.535 ops/s
+Iteration   1: 17532491.666 ops/s
+Iteration   2: 18447858.605 ops/s
+Iteration   3: 18340336.704 ops/s
+Iteration   4: 18632812.264 ops/s
+Iteration   5: 18561536.623 ops/s
+
+# Run progress: 17.50% complete, ETA 00:55:05
+# Fork: 3 of 5
+# Warmup Iteration   1: 18438413.839 ops/s
+# Warmup Iteration   2: 18149691.632 ops/s
+# Warmup Iteration   3: 18788985.252 ops/s
+# Warmup Iteration   4: 18834592.512 ops/s
+# Warmup Iteration   5: 18820381.311 ops/s
+Iteration   1: 18794695.904 ops/s
+Iteration   2: 18786734.269 ops/s
+Iteration   3: 18806337.357 ops/s
+Iteration   4: 18798944.070 ops/s
+Iteration   5: 18804629.909 ops/s
+
+# Run progress: 20.00% complete, ETA 00:53:25
+# Fork: 4 of 5
+# Warmup Iteration   1: 18307412.972 ops/s
+# Warmup Iteration   2: 19048206.844 ops/s
+# Warmup Iteration   3: 19023738.988 ops/s
+# Warmup Iteration   4: 19045905.750 ops/s
+# Warmup Iteration   5: 19017949.137 ops/s
+Iteration   1: 18994619.816 ops/s
+Iteration   2: 19002687.131 ops/s
+Iteration   3: 18942508.133 ops/s
+Iteration   4: 18781136.080 ops/s
+Iteration   5: 18705333.976 ops/s
+
+# Run progress: 22.50% complete, ETA 00:51:45
+# Fork: 5 of 5
+# Warmup Iteration   1: 18407203.617 ops/s
+# Warmup Iteration   2: 18451500.521 ops/s
+# Warmup Iteration   3: 18299084.004 ops/s
+# Warmup Iteration   4: 18503210.498 ops/s
+# Warmup Iteration   5: 18515345.072 ops/s
+Iteration   1: 18602183.006 ops/s
+Iteration   2: 18601907.464 ops/s
+Iteration   3: 18637574.832 ops/s
+Iteration   4: 18638021.650 ops/s
+Iteration   5: 18787889.795 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.bakedRegexSuccess":
+  18595881.396 ±(99.9%) 231558.391 ops/s [Average]
+  (min, avg, max) = (17532491.666, 18595881.396, 19002687.131), stdev = 309123.827
+  CI (99.9%): [18364323.005, 18827439.787] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.isDigitFailure
+
+# Run progress: 25.00% complete, ETA 00:50:04
+# Fork: 1 of 5
+# Warmup Iteration   1: 3803206390.760 ops/s
+# Warmup Iteration   2: 2298125610.489 ops/s
+# Warmup Iteration   3: 3816581195.951 ops/s
+# Warmup Iteration   4: 3859542250.960 ops/s
+# Warmup Iteration   5: 3852454710.039 ops/s
+Iteration   1: 3856170676.390 ops/s
+Iteration   2: 3844919817.939 ops/s
+Iteration   3: 3798351891.399 ops/s
+Iteration   4: 3854579732.036 ops/s
+Iteration   5: 3789384553.749 ops/s
+
+# Run progress: 27.50% complete, ETA 00:48:24
+# Fork: 2 of 5
+# Warmup Iteration   1: 3877511928.781 ops/s
+# Warmup Iteration   2: 2267335896.328 ops/s
+# Warmup Iteration   3: 3810259264.011 ops/s
+# Warmup Iteration   4: 3824012354.624 ops/s
+# Warmup Iteration   5: 3823880041.245 ops/s
+Iteration   1: 3842682729.566 ops/s
+Iteration   2: 3820862139.018 ops/s
+Iteration   3: 3823329483.522 ops/s
+Iteration   4: 3828674512.216 ops/s
+Iteration   5: 3822758817.817 ops/s
+
+# Run progress: 30.00% complete, ETA 00:46:44
+# Fork: 3 of 5
+# Warmup Iteration   1: 3821606906.745 ops/s
+# Warmup Iteration   2: 2293469376.100 ops/s
+# Warmup Iteration   3: 3876299801.930 ops/s
+# Warmup Iteration   4: 3824798101.498 ops/s
+# Warmup Iteration   5: 3867037848.027 ops/s
+Iteration   1: 3822409501.489 ops/s
+Iteration   2: 3821087555.531 ops/s
+Iteration   3: 3867817704.313 ops/s
+Iteration   4: 3877436995.945 ops/s
+Iteration   5: 3833280225.711 ops/s
+
+# Run progress: 32.50% complete, ETA 00:45:04
+# Fork: 4 of 5
+# Warmup Iteration   1: 3877752076.520 ops/s
+# Warmup Iteration   2: 2274694711.920 ops/s
+# Warmup Iteration   3: 3904820539.606 ops/s
+# Warmup Iteration   4: 3848123175.439 ops/s
+# Warmup Iteration   5: 3848858471.164 ops/s
+Iteration   1: 3848536145.391 ops/s
+Iteration   2: 3905308954.643 ops/s
+Iteration   3: 3799202661.090 ops/s
+Iteration   4: 3823605994.524 ops/s
+Iteration   5: 3904731085.269 ops/s
+
+# Run progress: 35.00% complete, ETA 00:43:24
+# Fork: 5 of 5
+# Warmup Iteration   1: 3817615866.688 ops/s
+# Warmup Iteration   2: 2270566118.283 ops/s
+# Warmup Iteration   3: 3795038355.886 ops/s
+# Warmup Iteration   4: 3780438829.774 ops/s
+# Warmup Iteration   5: 3830666855.917 ops/s
+Iteration   1: 3787102950.818 ops/s
+Iteration   2: 3773199170.373 ops/s
+Iteration   3: 3719935917.945 ops/s
+Iteration   4: 3832983563.366 ops/s
+Iteration   5: 3728711230.712 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.isDigitFailure":
+  3825082560.431 ±(99.9%) 33418696.034 ops/s [Average]
+  (min, avg, max) = (3719935917.945, 3825082560.431, 3905308954.643), stdev = 44613003.088
+  CI (99.9%): [3791663864.397, 3858501256.465] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.isDigitSuccess
+
+# Run progress: 37.50% complete, ETA 00:41:44
+# Fork: 1 of 5
+# Warmup Iteration   1: 3874660166.535 ops/s
+# Warmup Iteration   2: 2270488452.225 ops/s
+# Warmup Iteration   3: 3869404734.712 ops/s
+# Warmup Iteration   4: 3826255262.395 ops/s
+# Warmup Iteration   5: 3820542751.540 ops/s
+Iteration   1: 3802840721.901 ops/s
+Iteration   2: 3801004181.518 ops/s
+Iteration   3: 3696232868.826 ops/s
+Iteration   4: 3858158768.007 ops/s
+Iteration   5: 3837236477.267 ops/s
+
+# Run progress: 40.00% complete, ETA 00:40:03
+# Fork: 2 of 5
+# Warmup Iteration   1: 3742889718.725 ops/s
+# Warmup Iteration   2: 2231807846.944 ops/s
+# Warmup Iteration   3: 3798310526.460 ops/s
+# Warmup Iteration   4: 3790305396.247 ops/s
+# Warmup Iteration   5: 3786821532.998 ops/s
+Iteration   1: 3816561262.098 ops/s
+Iteration   2: 3823133168.218 ops/s
+Iteration   3: 3741034197.749 ops/s
+Iteration   4: 3787474249.685 ops/s
+Iteration   5: 3779006486.407 ops/s
+
+# Run progress: 42.50% complete, ETA 00:38:23
+# Fork: 3 of 5
+# Warmup Iteration   1: 3817683069.407 ops/s
+# Warmup Iteration   2: 2246535544.931 ops/s
+# Warmup Iteration   3: 3826357724.255 ops/s
+# Warmup Iteration   4: 3821895824.462 ops/s
+# Warmup Iteration   5: 3802532118.992 ops/s
+Iteration   1: 3799700172.138 ops/s
+Iteration   2: 3826933803.805 ops/s
+Iteration   3: 3687349138.554 ops/s
+Iteration   4: 3808929640.314 ops/s
+Iteration   5: 3701313659.625 ops/s
+
+# Run progress: 45.00% complete, ETA 00:36:43
+# Fork: 4 of 5
+# Warmup Iteration   1: 3806219539.342 ops/s
+# Warmup Iteration   2: 2260979688.070 ops/s
+# Warmup Iteration   3: 3794070937.399 ops/s
+# Warmup Iteration   4: 3843099119.836 ops/s
+# Warmup Iteration   5: 3829401031.787 ops/s
+Iteration   1: 3866899179.172 ops/s
+Iteration   2: 3794307511.825 ops/s
+Iteration   3: 3769287937.550 ops/s
+Iteration   4: 3818679715.160 ops/s
+Iteration   5: 3739086724.551 ops/s
+
+# Run progress: 47.50% complete, ETA 00:35:03
+# Fork: 5 of 5
+# Warmup Iteration   1: 3805521005.212 ops/s
+# Warmup Iteration   2: 2242172067.038 ops/s
+# Warmup Iteration   3: 3756916992.342 ops/s
+# Warmup Iteration   4: 3798304933.641 ops/s
+# Warmup Iteration   5: 3845865640.135 ops/s
+Iteration   1: 3873678920.052 ops/s
+Iteration   2: 3831729104.572 ops/s
+Iteration   3: 3741837071.559 ops/s
+Iteration   4: 3815385669.644 ops/s
+Iteration   5: 3714808917.646 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.isDigitSuccess":
+  3789304381.914 ±(99.9%) 39763376.664 ops/s [Average]
+  (min, avg, max) = (3687349138.554, 3789304381.914, 3873678920.052), stdev = 53082970.206
+  CI (99.9%): [3749541005.250, 3829067758.577] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.parseIntFailure
+
+# Run progress: 50.00% complete, ETA 00:33:23
+# Fork: 1 of 5
+# Warmup Iteration   1: 1287762.267 ops/s
+# Warmup Iteration   2: 1310669.502 ops/s
+# Warmup Iteration   3: 1306780.660 ops/s
+# Warmup Iteration   4: 1270977.371 ops/s
+# Warmup Iteration   5: 1301186.764 ops/s
+Iteration   1: 1220491.946 ops/s
+Iteration   2: 1301194.985 ops/s
+Iteration   3: 1302972.950 ops/s
+Iteration   4: 1298656.027 ops/s
+Iteration   5: 1301466.385 ops/s
+
+# Run progress: 52.50% complete, ETA 00:31:43
+# Fork: 2 of 5
+# Warmup Iteration   1: 1303041.937 ops/s
+# Warmup Iteration   2: 1308920.785 ops/s
+# Warmup Iteration   3: 1308497.076 ops/s
+# Warmup Iteration   4: 1313609.950 ops/s
+# Warmup Iteration   5: 1312170.093 ops/s
+Iteration   1: 1311434.406 ops/s
+Iteration   2: 1314635.120 ops/s
+Iteration   3: 1309072.148 ops/s
+Iteration   4: 1311391.068 ops/s
+Iteration   5: 1302226.879 ops/s
+
+# Run progress: 55.00% complete, ETA 00:30:02
+# Fork: 3 of 5
+# Warmup Iteration   1: 1322590.635 ops/s
+# Warmup Iteration   2: 1329555.249 ops/s
+# Warmup Iteration   3: 1319300.555 ops/s
+# Warmup Iteration   4: 1321873.200 ops/s
+# Warmup Iteration   5: 1320735.487 ops/s
+Iteration   1: 1321231.741 ops/s
+Iteration   2: 1304638.017 ops/s
+Iteration   3: 1315540.504 ops/s
+Iteration   4: 1316672.540 ops/s
+Iteration   5: 1318460.830 ops/s
+
+# Run progress: 57.50% complete, ETA 00:28:22
+# Fork: 4 of 5
+# Warmup Iteration   1: 1264765.696 ops/s
+# Warmup Iteration   2: 1295280.506 ops/s
+# Warmup Iteration   3: 1282664.639 ops/s
+# Warmup Iteration   4: 1299856.509 ops/s
+# Warmup Iteration   5: 1292452.792 ops/s
+Iteration   1: 1283600.839 ops/s
+Iteration   2: 1293401.444 ops/s
+Iteration   3: 1286192.619 ops/s
+Iteration   4: 1300678.899 ops/s
+Iteration   5: 1303909.964 ops/s
+
+# Run progress: 60.00% complete, ETA 00:26:42
+# Fork: 5 of 5
+# Warmup Iteration   1: 1307905.330 ops/s
+# Warmup Iteration   2: 1316547.023 ops/s
+# Warmup Iteration   3: 1301981.554 ops/s
+# Warmup Iteration   4: 1304065.874 ops/s
+# Warmup Iteration   5: 1285424.746 ops/s
+Iteration   1: 1292845.923 ops/s
+Iteration   2: 1278046.715 ops/s
+Iteration   3: 1289208.065 ops/s
+Iteration   4: 1302093.010 ops/s
+Iteration   5: 1305136.945 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.parseIntFailure":
+  1299407.999 ±(99.9%) 14841.071 ops/s [Average]
+  (min, avg, max) = (1220491.946, 1299407.999, 1321231.741), stdev = 19812.405
+  CI (99.9%): [1284566.928, 1314249.069] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.parseIntSuccess
+
+# Run progress: 62.50% complete, ETA 00:25:02
+# Fork: 1 of 5
+# Warmup Iteration   1: 1303183.467 ops/s
+# Warmup Iteration   2: 1322800.298 ops/s
+# Warmup Iteration   3: 1305825.791 ops/s
+# Warmup Iteration   4: 1317435.329 ops/s
+# Warmup Iteration   5: 1322497.364 ops/s
+Iteration   1: 1324867.266 ops/s
+Iteration   2: 1315203.441 ops/s
+Iteration   3: 1316468.914 ops/s
+Iteration   4: 1321825.107 ops/s
+Iteration   5: 1315433.434 ops/s
+
+# Run progress: 65.00% complete, ETA 00:23:22
+# Fork: 2 of 5
+# Warmup Iteration   1: 1244258.335 ops/s
+# Warmup Iteration   2: 1285031.338 ops/s
+# Warmup Iteration   3: 1280441.606 ops/s
+# Warmup Iteration   4: 1277326.951 ops/s
+# Warmup Iteration   5: 1281620.375 ops/s
+Iteration   1: 1281305.566 ops/s
+Iteration   2: 1284573.056 ops/s
+Iteration   3: 1270282.562 ops/s
+Iteration   4: 1279546.379 ops/s
+Iteration   5: 1281786.301 ops/s
+
+# Run progress: 67.50% complete, ETA 00:21:42
+# Fork: 3 of 5
+# Warmup Iteration   1: 1296957.425 ops/s
+# Warmup Iteration   2: 1320644.988 ops/s
+# Warmup Iteration   3: 1313238.921 ops/s
+# Warmup Iteration   4: 1311314.504 ops/s
+# Warmup Iteration   5: 1316537.752 ops/s
+Iteration   1: 1316274.094 ops/s
+Iteration   2: 1316871.637 ops/s
+Iteration   3: 1318062.172 ops/s
+Iteration   4: 1318441.723 ops/s
+Iteration   5: 1317789.464 ops/s
+
+# Run progress: 70.00% complete, ETA 00:20:01
+# Fork: 4 of 5
+# Warmup Iteration   1: 1260830.364 ops/s
+# Warmup Iteration   2: 1283744.411 ops/s
+# Warmup Iteration   3: 1289791.560 ops/s
+# Warmup Iteration   4: 1274078.710 ops/s
+# Warmup Iteration   5: 1269190.555 ops/s
+Iteration   1: 1292037.519 ops/s
+Iteration   2: 1291337.560 ops/s
+Iteration   3: 1294017.167 ops/s
+Iteration   4: 1293856.112 ops/s
+Iteration   5: 1294546.543 ops/s
+
+# Run progress: 72.50% complete, ETA 00:18:21
+# Fork: 5 of 5
+# Warmup Iteration   1: 1269118.885 ops/s
+# Warmup Iteration   2: 1290342.149 ops/s
+# Warmup Iteration   3: 1282450.686 ops/s
+# Warmup Iteration   4: 1283432.012 ops/s
+# Warmup Iteration   5: 1284753.085 ops/s
+Iteration   1: 1284496.534 ops/s
+Iteration   2: 1284295.869 ops/s
+Iteration   3: 1282414.217 ops/s
+Iteration   4: 1281655.189 ops/s
+Iteration   5: 1285470.779 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.parseIntSuccess":
+  1298514.344 ±(99.9%) 12900.960 ops/s [Average]
+  (min, avg, max) = (1270282.562, 1298514.344, 1324867.266), stdev = 17222.413
+  CI (99.9%): [1285613.384, 1311415.304] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.regexFailure
+
+# Run progress: 75.00% complete, ETA 00:16:41
+# Fork: 1 of 5
+# Warmup Iteration   1: 7750064.908 ops/s
+# Warmup Iteration   2: 7522555.750 ops/s
+# Warmup Iteration   3: 7894182.821 ops/s
+# Warmup Iteration   4: 7876732.194 ops/s
+# Warmup Iteration   5: 7888505.585 ops/s
+Iteration   1: 7883975.547 ops/s
+Iteration   2: 7863769.716 ops/s
+Iteration   3: 7900124.932 ops/s
+Iteration   4: 7845716.171 ops/s
+Iteration   5: 7900395.732 ops/s
+
+# Run progress: 77.50% complete, ETA 00:15:01
+# Fork: 2 of 5
+# Warmup Iteration   1: 7807102.475 ops/s
+# Warmup Iteration   2: 7808913.549 ops/s
+# Warmup Iteration   3: 7898029.913 ops/s
+# Warmup Iteration   4: 7902585.935 ops/s
+# Warmup Iteration   5: 7880246.741 ops/s
+Iteration   1: 7884417.700 ops/s
+Iteration   2: 7885514.785 ops/s
+Iteration   3: 7906874.948 ops/s
+Iteration   4: 7886821.060 ops/s
+Iteration   5: 7966319.348 ops/s
+
+# Run progress: 80.00% complete, ETA 00:13:21
+# Fork: 3 of 5
+# Warmup Iteration   1: 7738484.124 ops/s
+# Warmup Iteration   2: 7767927.648 ops/s
+# Warmup Iteration   3: 7820975.807 ops/s
+# Warmup Iteration   4: 7870575.118 ops/s
+# Warmup Iteration   5: 7516080.653 ops/s
+Iteration   1: 7408959.000 ops/s
+Iteration   2: 7201719.657 ops/s
+Iteration   3: 7600218.549 ops/s
+Iteration   4: 7553096.541 ops/s
+Iteration   5: 7591873.195 ops/s
+
+# Run progress: 82.50% complete, ETA 00:11:41
+# Fork: 4 of 5
+# Warmup Iteration   1: 7161039.831 ops/s
+# Warmup Iteration   2: 7625360.297 ops/s
+# Warmup Iteration   3: 7637518.675 ops/s
+# Warmup Iteration   4: 7461779.547 ops/s
+# Warmup Iteration   5: 7068742.791 ops/s
+Iteration   1: 7413865.993 ops/s
+Iteration   2: 7469727.972 ops/s
+Iteration   3: 7473065.714 ops/s
+Iteration   4: 7486326.991 ops/s
+Iteration   5: 7466597.480 ops/s
+
+# Run progress: 85.00% complete, ETA 00:10:00
+# Fork: 5 of 5
+# Warmup Iteration   1: 6756042.011 ops/s
+# Warmup Iteration   2: 6960341.339 ops/s
+# Warmup Iteration   3: 6854231.821 ops/s
+# Warmup Iteration   4: 6875483.467 ops/s
+# Warmup Iteration   5: 6862476.405 ops/s
+Iteration   1: 6863392.723 ops/s
+Iteration   2: 6844444.806 ops/s
+Iteration   3: 6776089.133 ops/s
+Iteration   4: 6782943.792 ops/s
+Iteration   5: 6790466.386 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.regexFailure":
+  7505868.715 ±(99.9%) 307847.841 ops/s [Average]
+  (min, avg, max) = (6776089.133, 7505868.715, 7966319.348), stdev = 410968.060
+  CI (99.9%): [7198020.874, 7813716.556] (assumes normal distribution)
+
+
+# JMH version: 1.35
+# VM version: JDK 11.0.15, OpenJDK 64-Bit Server VM, 11.0.15+10-Ubuntu-0ubuntu0.20.04.1
+# VM invoker: /usr/lib/jvm/java-11-openjdk-amd64/bin/java
+# VM options: <none>
+# Blackhole mode: full + dont-inline hint (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 5 iterations, 10 s each
+# Measurement: 5 iterations, 10 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Throughput, ops/time
+# Benchmark: ru.nsu.fit.benchmark.IntegerParsingBenchmark.regexSuccess
+
+# Run progress: 87.50% complete, ETA 00:08:20
+# Fork: 1 of 5
+# Warmup Iteration   1: 6729678.968 ops/s
+# Warmup Iteration   2: 7030205.878 ops/s
+# Warmup Iteration   3: 7070015.641 ops/s
+# Warmup Iteration   4: 7109799.718 ops/s
+# Warmup Iteration   5: 7084963.985 ops/s
+Iteration   1: 7083301.823 ops/s
+Iteration   2: 7057937.607 ops/s
+Iteration   3: 6821960.988 ops/s
+Iteration   4: 6972684.201 ops/s
+Iteration   5: 7094192.985 ops/s
+
+# Run progress: 90.00% complete, ETA 00:06:40
+# Fork: 2 of 5
+# Warmup Iteration   1: 6638948.065 ops/s
+# Warmup Iteration   2: 6770719.871 ops/s
+# Warmup Iteration   3: 6996426.371 ops/s
+# Warmup Iteration   4: 6783858.097 ops/s
+# Warmup Iteration   5: 6844102.566 ops/s
+Iteration   1: 7013920.279 ops/s
+Iteration   2: 6990928.217 ops/s
+Iteration   3: 7000328.100 ops/s
+Iteration   4: 7006844.916 ops/s
+Iteration   5: 7060245.134 ops/s
+
+# Run progress: 92.50% complete, ETA 00:05:00
+# Fork: 3 of 5
+# Warmup Iteration   1: 7112017.632 ops/s
+# Warmup Iteration   2: 7261409.744 ops/s
+# Warmup Iteration   3: 7293486.683 ops/s
+# Warmup Iteration   4: 7341750.791 ops/s
+# Warmup Iteration   5: 7316916.357 ops/s
+Iteration   1: 7310992.756 ops/s
+Iteration   2: 7337681.191 ops/s
+Iteration   3: 7315513.633 ops/s
+Iteration   4: 7269569.835 ops/s
+Iteration   5: 7245536.169 ops/s
+
+# Run progress: 95.00% complete, ETA 00:03:20
+# Fork: 4 of 5
+# Warmup Iteration   1: 6776046.836 ops/s
+# Warmup Iteration   2: 6902506.180 ops/s
+# Warmup Iteration   3: 6909183.054 ops/s
+# Warmup Iteration   4: 6919170.865 ops/s
+# Warmup Iteration   5: 6888952.951 ops/s
+Iteration   1: 6884268.642 ops/s
+Iteration   2: 6902826.878 ops/s
+Iteration   3: 6902935.819 ops/s
+Iteration   4: 6904025.330 ops/s
+Iteration   5: 6730784.005 ops/s
+
+# Run progress: 97.50% complete, ETA 00:01:40
+# Fork: 5 of 5
+# Warmup Iteration   1: 6755337.547 ops/s
+# Warmup Iteration   2: 6449851.536 ops/s
+# Warmup Iteration   3: 6678378.182 ops/s
+# Warmup Iteration   4: 6634672.250 ops/s
+# Warmup Iteration   5: 6678380.507 ops/s
+Iteration   1: 6745139.940 ops/s
+Iteration   2: 6651598.056 ops/s
+Iteration   3: 6738703.212 ops/s
+Iteration   4: 6660621.519 ops/s
+Iteration   5: 6670308.919 ops/s
+
+
+Result "ru.nsu.fit.benchmark.IntegerParsingBenchmark.regexSuccess":
+  6974914.006 ±(99.9%) 158573.571 ops/s [Average]
+  (min, avg, max) = (6651598.056, 6974914.006, 7337681.191), stdev = 211691.180
+  CI (99.9%): [6816340.435, 7133487.577] (assumes normal distribution)
+
+
+# Run complete. Total time: 01:06:46
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+Benchmark                                   Mode  Cnt           Score          Error  Units
+IntegerParsingBenchmark.bakedRegexFailure  thrpt   25    20236286.774 ±   132637.610  ops/s
+IntegerParsingBenchmark.bakedRegexSuccess  thrpt   25    18595881.396 ±   231558.391  ops/s
+IntegerParsingBenchmark.isDigitFailure     thrpt   25  3825082560.431 ± 33418696.034  ops/s
+IntegerParsingBenchmark.isDigitSuccess     thrpt   25  3789304381.914 ± 39763376.664  ops/s
+IntegerParsingBenchmark.parseIntFailure    thrpt   25     1299407.999 ±    14841.071  ops/s
+IntegerParsingBenchmark.parseIntSuccess    thrpt   25     1298514.344 ±    12900.960  ops/s
+IntegerParsingBenchmark.regexFailure       thrpt   25     7505868.715 ±   307847.841  ops/s
+IntegerParsingBenchmark.regexSuccess       thrpt   25     6974914.006 ±   158573.571  ops/s
