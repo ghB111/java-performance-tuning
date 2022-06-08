@@ -1,0 +1,9 @@
+#!/usr/env bash
+
+exit 1
+
+g++ -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o libhello.so HelloJNI.cpp
+java -Djava.library.path=. HelloJNI
+gcc -fPIC -I"$JAVA_HOME/include" -I"$JAVA_HOME/include/linux" -shared -o libhello.so HelloJNI.c
+export JAVA_HOME=/usr/lib/jvm/java-17-openjdk-amd64/
+
